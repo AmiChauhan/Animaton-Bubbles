@@ -1,0 +1,360 @@
+.demo1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+
+.right_text {
+    width: 50%;
+    animation: moveright 3s  ;
+
+}
+.left_image {
+    width: 50%;
+    animation: moveleft 3s ;
+
+}
+
+.demo2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+
+.right_text1 {
+    width: 50%;
+    animation: moveup 3s 1s ;
+    max-width: 545px;
+
+}
+.left_image1 {
+    width: 50%;
+    animation: movedown 3s 1s ;
+
+}
+
+.demo3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+
+.right_text2 {
+    width: 50%;
+    animation: rotateleft 3s 2.5s ;
+    max-width: 545px;
+
+}
+.left_image2 {
+    width: 50%;
+    /* animation: rotateleft 3s ; */
+
+}
+
+.demo4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+
+.right_text3 {
+    width: 50%;
+    /* animation: rotateleft 3s 2.5s ; */
+    max-width: 545px;
+
+}
+.left_image3 {
+    width: 50%;
+    /* animation: rotateleft 3s ; */
+
+}
+.animation_demo
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img
+{
+    width: 100%;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.32);
+-webkit-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.32);
+-moz-box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.32);
+/* box-shadow: 0 35px 30px 0 rgba(0,0,0,.35); */
+}
+
+p {
+    line-height: 25px;
+    color: #6c6f6e;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #b75405;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .left_image , .left_image1 , .left_image2
+    {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .right_text , .right_text1 , .right_text2
+    {
+        width: 100%;
+        text-align: center;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .demo1 , .demo2 , .demo3
+    {
+        padding: 30px 0;
+    }
+}
+
+
+
+.dv1 {
+    height: 20px;
+    display: block;
+    width: 20px;
+    background-color: #2a01bd;
+    border-radius: 50%;
+    animation: move_down1 20s 1s infinite  alternate linear;
+}
+
+.dv2 {
+    height: 15px;
+    display: block;
+    width: 15px;
+    background-color: #33ce77;
+    border-radius: 50%;
+    position: absolute;
+    right: 90%;
+    top: 10%;
+    animation: move_up1 20s  infinite  alternate linear;
+
+}
+.dv3 {
+    height: 25px;
+    display: block;
+    width: 25px;
+    background-color: #db2281;
+    border-radius: 50%;
+    position: absolute;
+    right: 80%;
+    top: 15%;
+    animation: move_down1 20s 1s infinite  alternate linear;
+}
+
+.dv4 {
+    height: 10px;
+    display: block;
+    width: 10px;
+    background-color: #ff8f00;
+    border-radius: 50%;
+    position: absolute;
+    right: 95%;
+    top: 20%;
+    animation: move_up1 20s   infinite  alternate linear;
+}
+.dv5 {
+    height: 30px;
+    display: block;
+    width: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    right: 65%;
+    top: 30%;
+    animation: move_down1 20s infinite  alternate linear;
+}
+.dv6 {
+    height: 35px;
+    display: block;
+    width: 35px;
+    background-color: #00ffe770;
+    border-radius: 50%;
+    position: absolute;
+    right: 48%;
+    top: 7%;
+    animation: move_up1 20s infinite  alternate linear;
+}
+.dv7 {
+    height: 23px;
+    display: block;
+    width: 23px;
+    background-color: #a4db53;
+    border-radius: 50%;
+    position: absolute;
+    right: 39%;
+    top: 22%;
+    animation: move_down1 20s infinite  alternate linear;
+}
+.dv8 {
+    height: 13px;
+    display: block;
+    width: 13px;
+    background-color: #c4b226;
+    border-radius: 50%;
+    position: absolute;
+    right: 33%;
+    top: 13%;
+    animation: move_up1 20s infinite  alternate linear;
+}
+
+.dv9 {
+    height: 21px;
+    display: block;
+    width: 21px;
+    background-color: #36caa0;
+    border-radius: 50%;
+    position: absolute;
+    right: 19%;
+    top: 6%;
+    animation: move_down1 20s infinite  alternate linear;
+}
+.dv10 {
+    height: 27px;
+    display: block;
+    width: 27px;
+    background-color: #f00;
+    border-radius: 50%;
+    position: absolute;
+    right: 6%;
+    top: 10%;
+    animation: move_up1 20s infinite  alternate linear;
+}
+
+
+/* animation demo css start */
+
+
+@keyframes moveleft {
+    
+  0%{
+    transform: translatex(-100px);
+  }
+
+  100%
+  {
+      transform: translateX(0);
+  }
+
+}
+
+
+
+@keyframes moveright {
+    
+    0%{
+      transform: translatex(100px);
+    }
+  
+    100%
+    {
+        transform: translateX(0);
+    }
+  
+  }
+
+
+
+  @keyframes moveup {
+    
+    0%{
+      transform: translatey(100px);
+    }
+  
+    100%
+    {
+        transform: translateX(0);
+    }
+  
+  }
+
+
+
+  @keyframes movedown {
+    
+    0%{
+      transform: translatey(-100px);
+    }
+  
+    100%
+    {
+        transform: translateX(0);
+    }
+  
+  }
+
+
+  @keyframes rotateleft {
+
+    0%
+    {
+        transform: rotate(-30deg);
+    }
+    100%
+    {
+        transform: rotate(0deg);
+    }
+      
+  }
+
+
+
+  @keyframes move_down1 {
+      
+    0%
+    {
+
+        transform: translatey(0px);
+ 
+    }
+    100%
+    {
+
+        transform: translatey(900px);
+ 
+    }
+  
+  }
+
+
+  
+  @keyframes move_up1 {
+      
+    0%
+    {
+
+        transform: translatey(900px);
+ 
+    }
+    100%
+    {
+
+        transform: translatey(0px);
+ 
+    }
+  
+  }
+
+
+
+
+/* animation demo css */
